@@ -9,3 +9,8 @@ Ensuite vous cilquez pour afficher le débile. Son nom s'affiche dans la case et
 Un dé apparait, vous pouvez cliquer dessus.
 Votre résultat s'affiche à gauche, celui du débile à droite.
 Si votre score est plus élevé, vous enlevez la différence aux points de vie du débile, et inversement.
+
+# Jouer au jeu
+Le jeu est ici : http://yannickbiheul.fr/jeu.html 
+
+Mais attention, il n'est pas terminé !
