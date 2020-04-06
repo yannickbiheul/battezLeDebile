@@ -5,9 +5,8 @@
 
 Un petit *jeu de hasard* se jouant avec des **dés virtuels**
 
-C'est un jeu que je développe tout seul, sans cours ni tuto, juste pour valider les concepts appris pendant mes formations.
-
-Il me permet de concrétiser les concepts que j'ai vu en JavaScript : 
+C'est un jeu que je développe tout seul, sans cours ni tuto, juste pour valider les concepts appris pendant mes formations :
+ 
 * Variables,
 * Instructions conditionnelles,
 * Boucles,
