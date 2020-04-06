@@ -5,6 +5,15 @@
 
 Un petit *jeu de hasard* se jouant avec des **dés virtuels**
 
+C'est un jeu que je développe tout seul, sans cours ni tuto, juste pour valider les concepts appris pendant mes formations.
+
+Il me permet de concrétiser les concepts que j'ai vu en JavaScript : 
+* Variables,
+* Instructions conditionnelles,
+* Boucles,
+* Fonctions,
+* Intéractions avec le DOM.
+
 # Principe du jeu
 Vous choisissez d'abord votre nom, il s'affiche dans la case correspondante et dans la barre d'infos, avec votre nombre de **points de vie** (PV).
 
@@ -30,6 +39,16 @@ Si votre score est plus élevé, vous enlevez la différence aux points de vie d
 * [Google Chrome](https://www.google.fr/chrome/?brand=CHBD&gclid=CjwKCAjwpqv0BRABEiwA-TySweC2bONhPrgyuzbP4_9snC9rXGiS1lxTNuhsrfpnmj39i5z8PpHkJRoC7C0QAvD_BwE&gclsrc=aw.ds) comme navigateur;
 * [Google Fonts](https://fonts.google.com/) pour les polices;
 * [Flat ui colors](https://flatuicolors.com/) pour les couleurs;
+
+# Les améliorations à venir
+
+Déjà il reste pas mal de trucs à revoir sur le design du jeu : 
+* Les différents éléments sont placés dans des cases dont les couleurs ne sont pas top, j'ai fait ça en attendant, histoire de les différencier pour la mise en forme.
+* Le rendu sur mobile ne me plait pas, il faudrait que je puisse forcer l'affichage en mode paysage.
+
+Ensuite il reste encore des trucs à rajouter dans la logique du jeu :
+* Il ne se termine jamais, il reste à ajouter une fonction qui remette tout à zéro quand les PV d'un personnage sont épuisés.
+* J'aimerais ajouter d'autres animations, notamment quand un perso est touché, le faire clignoter, etc...
 
 # Jouer au jeu
 Le jeu est ici : [Battez Le Débile](http://yannickbiheul.fr/jeu.html)
