@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Battez le débile !</title>
+    <link rel="stylesheet" href="jeu.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <header>
+
+        <!-- GAME INFOS-->
+        <div class="game_infos">
+            <div class="player_infos">
+                <p class="info_namePlayer"></p>
+                <p class="info_pvPlayer"></p>
+            </div>
+            <div class="title">
+                <h1>VS</h1>
+            </div>
+            <div class="debile_infos">
+                <p class="info_nameDebile"></p>
+                <p class="info_pvDebile"></p>
+            </div>
+        </div>
+
+        <!-- GAME CHARA -->
+        <div class="game_chara">
+
+            <!-- GAME CHARA 1 -->
+            <div class="game_chara1">
+                <div class="game_chara11">
+                    <img id="imgPlayer" src="images/soldat_mini.png" alt="Un soldat">
+                </div>
+                <div class="game_chara12">
+                    <input id="getName" type="text" placeholder="Entrez votre nom">
+                    <a href="#" id="votreNom">OK</a>
+                    <p class="namePlayer"></p>
+                </div>
+            </div>
+
+            <!-- GAME CHARA 3 -->
+            <div class="game_chara3">
+                <div class="game_chara31">
+                    <img id="imgDebile" src="images/trump.png" alt="Trump">
+                </div>
+                <div class="game_chara32">
+                    <p class="debileTexte">Découvrez le débile :</p>
+                    <a href="#" id="debile_img">OK</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- GAMEPLAY -->
+
+        <div class="game_play">
+            <div class="game_play1">
+
+            </div>
+            <div class="game_play2">
+                <p class="texteDe">Lancez le dé</p>
+                <a id="twice" href="#"><img src="images/de.png" alt="Dé"></a>
+            </div>
+            <div class="game_play3">
+
+            </div>
+        </div>
+    </header>
+
+    <script src="jeu.js"></script>
+</body>
+</html>
