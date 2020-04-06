@@ -18,7 +18,18 @@ Si votre score est plus élevé, vous enlevez la différence aux points de vie d
 
 * HTML
 * CSS
+    * FlexBox
 * JavaScript
+
+# Outils utilisés
+
+* [Visual Studio Code](https://code.visualstudio.com/) pour l'éditeur de texte;
+* [Git](https://git-scm.com/) pour la gestion de versions;
+* [Git Bash](https://gitforwindows.org/) comme terminal de commande;
+* [GitHub](https://github.com/) pour partager le code en ligne;
+* [Google Chrome](https://www.google.fr/chrome/?brand=CHBD&gclid=CjwKCAjwpqv0BRABEiwA-TySweC2bONhPrgyuzbP4_9snC9rXGiS1lxTNuhsrfpnmj39i5z8PpHkJRoC7C0QAvD_BwE&gclsrc=aw.ds) comme navigateur;
+* [Google Fonts](https://fonts.google.com/) pour les polices;
+* [Flat ui colors](https://flatuicolors.com/) pour les couleurs;
 
 # Jouer au jeu
 Le jeu est ici : [Battez Le Débile](http://yannickbiheul.fr/jeu.html)
