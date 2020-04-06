@@ -1,0 +1,268 @@
+/* GENERAL */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* CONTAINER */
+
+header {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #54a0ff;
+}
+
+/* INFOS */
+
+.game_infos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10%;
+    width: 100%;
+    background-color: #ff9f43;
+}
+
+.player_infos {
+    width: 33.3334%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.info_namePlayer {
+    margin-top: 10px;
+}
+
+.info_pvPlayer {
+    margin-bottom: 10px;
+}
+
+.title {
+    width: 33.3334%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.debile_infos {
+    width: 33.3334%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding-right: 10px;
+}
+
+/* CHARACTERS */
+
+.game_chara {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 55%;
+    width: 100%;
+    background-color: #01a3a4;
+}
+
+.game_chara1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 95%;
+    width: 48%;
+    margin-right: 2.5px;
+    background-color: #576574;
+    margin-left: 10px;
+}
+
+.game_chara11 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+    width: 100%;
+    /* border: 1px solid #fff; */
+    background: linear-gradient(-225deg, rgba(30,30,30,0.6) 20%, rgba(46,46,46,0.5) 70%), url("images/vigne.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.game_chara11 img {
+    max-width: 80%;
+    max-height: 80%;
+    opacity: 0;
+    transition-duration: 1.5s;
+}
+
+.game_chara12 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+    width: 100%;
+    /* border: 1px solid #fff; */
+    padding: 2px;
+}
+
+.game_chara12 input {
+    height: 30%;
+    width: 90%;
+}
+
+.game_chara12 a {
+    text-decoration: none;
+    color: #fff;
+    background-color: red;
+    width: 30px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px #000;
+    margin-top: 10px;
+}
+
+.namePlayer {
+    display: none;
+    color: #fff;
+}
+
+.game_chara2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 95%;
+    width: 20%;
+}
+
+.game_chara3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 95%;
+    width: 48%;
+    margin-left: 2.5px;
+    background-color: #576574;
+    margin-right: 10px;
+}
+
+.game_chara31 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+    width: 100%;
+    /* border: 1px solid #fff; */
+    background: linear-gradient(-225deg, rgba(30,30,30,0.6) 20%, rgba(46,46,46,0.5) 70%), url("images/fond-noir.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.game_chara31 img {
+    max-width: 80%;
+    max-height: 80%;
+    opacity: 0;
+    transition-duration: 1.5s;
+}
+
+.debileTexte {
+    display: none;
+}
+
+#debile_img {
+    display: none;
+}
+
+.game_chara32 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+    width: 100%;
+    /* border: 1px solid #fff; */
+    padding: 2px;
+}
+
+.game_chara32 p {
+    color: #fff;
+    margin-top: -5px;
+}
+
+.game_chara32 a {
+    text-decoration: none;
+    color: #fff;
+    background-color: red;
+    width: 30px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px #000;
+}
+
+/* GAMEPLAY */
+
+.game_play {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 35%;
+    width: 100%;
+    background-color: #341f97;
+}
+
+.game_play1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.game_play2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.texteDe {
+    color: #fff;
+    opacity: 0;
+    transition-duration: 1.5s;
+}
+
+#twice {
+    opacity: 0;
+    transition-duration: 1.5s;
+}
+
+.game_play2 img {
+    width: 100px;
+}
+
+.game_play3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
