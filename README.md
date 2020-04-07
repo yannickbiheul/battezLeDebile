@@ -38,16 +38,12 @@ Si votre score est plus élevé, vous enlevez la différence aux points de vie d
 * [Google Chrome](https://www.google.fr/chrome/?brand=CHBD&gclid=CjwKCAjwpqv0BRABEiwA-TySweC2bONhPrgyuzbP4_9snC9rXGiS1lxTNuhsrfpnmj39i5z8PpHkJRoC7C0QAvD_BwE&gclsrc=aw.ds) comme navigateur;
 * [Google Fonts](https://fonts.google.com/) pour les polices;
 * [Flat ui colors](https://flatuicolors.com/) pour les couleurs;
+* [FileZilla](https://filezilla-project.org/) pour communiquer avec le serveur;
+* [Ionos](https://www.ionos.fr/) pour l'achat du nom de domaine.
 
-# Les améliorations à venir
+# Mises à jour
 
-Déjà il reste pas mal de trucs à revoir sur le design du jeu : 
-* Les différents éléments sont placés dans des cases dont les couleurs ne sont pas top, j'ai fait ça en attendant, histoire de les différencier pour la mise en forme.
-* Le rendu sur mobile ne me plait pas, il faudrait que je puisse forcer l'affichage en mode paysage.
 
-Ensuite il reste encore des trucs à rajouter dans la logique du jeu :
-* Il ne se termine jamais, il reste à ajouter une fonction qui remette tout à zéro quand les PV d'un personnage sont épuisés.
-* J'aimerais ajouter d'autres animations, notamment quand un perso est touché, le faire clignoter, etc...
 
 # Jouer au jeu
 Le jeu est ici : [Battez Le Débile](http://yannickbiheul.fr/jeu.html)
