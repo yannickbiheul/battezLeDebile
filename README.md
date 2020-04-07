@@ -6,12 +6,18 @@
 Un petit *jeu de hasard* se jouant avec des **dés virtuels**
 
 C'est un jeu que je développe tout seul, sans cours ni tuto, juste pour valider les concepts appris pendant mes formations :
- 
-* Variables,
-* Instructions conditionnelles,
-* Boucles,
-* Fonctions,
-* Intéractions avec le DOM.
+
+* CSS
+    * FlexBox
+    * Variables CSS
+
+* JavaScript
+    * Variables
+    * Instructions conditionnelles
+    * Boucles
+    * Fonctions
+    * Intéractions avec le DOM
+    * Génération de nombres aléatoires
 
 # Principe du jeu
 Vous choisissez d'abord votre nom, il s'affiche dans la case correspondante et dans la barre d'infos, avec votre nombre de **points de vie** (PV).
@@ -26,20 +32,19 @@ Si votre score est plus élevé, vous enlevez la différence aux points de vie d
 
 * HTML
 * CSS
-    * FlexBox
 * JavaScript
 
 # Outils utilisés
 
-* [Visual Studio Code](https://code.visualstudio.com/) pour l'éditeur de texte;
-* [Git](https://git-scm.com/) pour la gestion de versions;
-* [Git Bash](https://gitforwindows.org/) comme terminal de commande;
-* [GitHub](https://github.com/) pour partager le code en ligne;
-* [Google Chrome](https://www.google.fr/chrome/?brand=CHBD&gclid=CjwKCAjwpqv0BRABEiwA-TySweC2bONhPrgyuzbP4_9snC9rXGiS1lxTNuhsrfpnmj39i5z8PpHkJRoC7C0QAvD_BwE&gclsrc=aw.ds) comme navigateur;
-* [Google Fonts](https://fonts.google.com/) pour les polices;
-* [Flat ui colors](https://flatuicolors.com/) pour les couleurs;
-* [FileZilla](https://filezilla-project.org/) pour communiquer avec le serveur;
-* [Ionos](https://www.ionos.fr/) pour l'achat du nom de domaine.
+* [Visual Studio Code](https://code.visualstudio.com/) pour l'éditeur de texte
+* [Git](https://git-scm.com/) pour la gestion de versions
+* [Git Bash](https://gitforwindows.org/) comme terminal de commande
+* [GitHub](https://github.com/) pour partager le code en ligne
+* [Google Chrome](https://www.google.fr/chrome/?brand=CHBD&gclid=CjwKCAjwpqv0BRABEiwA-TySweC2bONhPrgyuzbP4_9snC9rXGiS1lxTNuhsrfpnmj39i5z8PpHkJRoC7C0QAvD_BwE&gclsrc=aw.ds) comme navigateur
+* [Google Fonts](https://fonts.google.com/) pour les polices
+* [Flat ui colors](https://flatuicolors.com/) pour les couleurs
+* [FileZilla](https://filezilla-project.org/) pour communiquer avec le serveur
+* [Ionos](https://www.ionos.fr/) pour l'achat du nom de domaine
 
 # Mises à jour
 
