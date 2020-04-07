@@ -54,7 +54,9 @@ Si votre score est plus élevé, vous enlevez la différence aux points de vie d
 
 # Mises à jour
 
-* **7 Avril 2020** : Ajout d'une fonction qui permet de ré-initialiser le jeu quand les points de vie sont à zéro.
+* **7 Avril 2020** 
+    * Ajout d'une fonction qui permet de ré-initialiser le jeu quand les points de vie sont à zéro.
+    * Modif du CSS pour changer les couleurs.
 
 # Jouer au jeu
 Le jeu est ici : [Battez Le Débile](http://yannickbiheul.fr/jeu.html)

@@ -17,7 +17,7 @@ let buttonDebile = document.querySelector("#debile_img");
 let debileTexte = document.querySelector(".debileTexte");
 let infoNameDebile = document.querySelector(".info_nameDebile");
 let infoPvDebile = document.querySelector(".info_pvDebile");
-let nameDebile = "Le Débile";
+let nameDebile = document.querySelector(".nameDebile");
 let pvDebile = 50;
 
 
@@ -60,8 +60,10 @@ buttonPlayer.addEventListener("click", function() {
 buttonDebile.addEventListener("click", function() {
     imgDebile.style.opacity = "1";
     buttonDebile.style.display = "none";
-    debileTexte.style.fontWeight = "bold";
     debileTexte.innerHTML = "Le Débile";
+    debileTexte.style.fontWeight = "bold";
+    debileTexte.style.marginTop = "20px";
+    nameDebile = "Le Débile";
     infoNameDebile.innerHTML = nameDebile;
     infoPvDebile.innerHTML = pvDebile + " PV.";
     twiceText.style.opacity = "1";

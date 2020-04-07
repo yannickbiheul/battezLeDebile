@@ -35,18 +35,30 @@ header {
     align-items: center;
     height: 10%;
     width: 100%;
-    background-color: var(--orange);
+    background-color: var(--bleu-roi);
+    padding-top: 2px;
+    padding-bottom: 2px;
 }
 
 .player_infos {
     width: 33.3334%;
+    height: 45px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: flex-start;
     padding-left: 10px;
-    padding-top: 10px;
     padding-bottom: 10px;
+    /* border: 1px solid #fff; */
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.player_infos p {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .info_namePlayer {
@@ -63,15 +75,26 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: #fff;
 }
 
 .debile_infos {
     width: 33.3334%;
+    height: 45px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-end;
     padding-right: 10px;
+    padding-bottom: 10px;
+    /* border: 1px solid #fff; */
+    margin-right: 10px;
+    color: #fff;
+}
+
+.debile_infos p {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 /* CHARACTERS */
@@ -82,7 +105,7 @@ header {
     align-items: center;
     height: 55%;
     width: 100%;
-    background-color: var(--vert);
+    background-color: #fff;
 }
 
 .game_chara1 {
@@ -93,8 +116,9 @@ header {
     height: 95%;
     width: 48%;
     margin-right: 2.5px;
-    background-color: var(--gris);
+    background-color: var(--vert);
     margin-left: 10px;
+    box-shadow: 2px 2px 4px #000;
 }
 
 .game_chara11 {
@@ -152,15 +176,6 @@ header {
     color: #fff;
 }
 
-.game_chara2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 95%;
-    width: 20%;
-}
-
 .game_chara3 {
     display: flex;
     flex-direction: column;
@@ -169,8 +184,9 @@ header {
     height: 95%;
     width: 48%;
     margin-left: 2.5px;
-    background-color: var(--gris);
+    background-color: var(--vert);
     margin-right: 10px;
+    box-shadow: 2px 2px 4px #000;
 }
 
 .game_chara31 {
@@ -230,6 +246,11 @@ header {
     box-shadow: 4px 4px 4px #000;
 }
 
+.nameDebile {
+    opacity: 0;
+    transition-duration: 1.5s;
+}
+
 /* GAMEPLAY */
 
 .game_play {
@@ -238,7 +259,7 @@ header {
     align-items: center;
     height: 35%;
     width: 100%;
-    background-color: var(--violet);
+    background-color: var(--bleu-roi);
 }
 
 .game_play1 {
