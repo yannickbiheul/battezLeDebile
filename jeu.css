@@ -4,7 +4,17 @@ html, body {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
+    --rouge: #eb3b5a;
+    --orange: #fa8231;
+    --jaune: #fed330;
+    --vert: #20bf6b;
+    --turquoise: #0fb9b1;
+    --bleu: #45aaf2;
+    --bleu-roi: #3867d6;
+    --violet: #8854d0;
+    --gris: #a5b1c2;
 }
+
 
 /* CONTAINER */
 
@@ -14,7 +24,7 @@ header {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    background-color: #54a0ff;
+    background-color: var(--bleu-roi);
 }
 
 /* INFOS */
@@ -25,7 +35,7 @@ header {
     align-items: center;
     height: 10%;
     width: 100%;
-    background-color: #ff9f43;
+    background-color: var(--orange);
 }
 
 .player_infos {
@@ -72,7 +82,7 @@ header {
     align-items: center;
     height: 55%;
     width: 100%;
-    background-color: #01a3a4;
+    background-color: var(--vert);
 }
 
 .game_chara1 {
@@ -83,7 +93,7 @@ header {
     height: 95%;
     width: 48%;
     margin-right: 2.5px;
-    background-color: #576574;
+    background-color: var(--gris);
     margin-left: 10px;
 }
 
@@ -159,7 +169,7 @@ header {
     height: 95%;
     width: 48%;
     margin-left: 2.5px;
-    background-color: #576574;
+    background-color: var(--gris);
     margin-right: 10px;
 }
 
@@ -228,7 +238,7 @@ header {
     align-items: center;
     height: 35%;
     width: 100%;
-    background-color: #341f97;
+    background-color: var(--violet);
 }
 
 .game_play1 {

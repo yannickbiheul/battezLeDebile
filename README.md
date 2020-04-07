@@ -46,9 +46,15 @@ Si votre score est plus élevé, vous enlevez la différence aux points de vie d
 * [FileZilla](https://filezilla-project.org/) pour communiquer avec le serveur
 * [Ionos](https://www.ionos.fr/) pour l'achat du nom de domaine
 
+# Problèmes actuels
+
+* Quand on clique une première fois sur le dé, le résultat ne s'affiche pas tout de suite.
+* On doit cliquer une nouvelle fois sur le dé quand les points de vie sont à zéro pour terminer le jeu.
+* On est obligé de réactualiser la page quand le jeu se termine.
+
 # Mises à jour
 
-
+* **7 Avril 2020** : Ajout d'une fonction qui permet de ré-initialiser le jeu quand les points de vie sont à zéro.
 
 # Jouer au jeu
 Le jeu est ici : [Battez Le Débile](http://yannickbiheul.fr/jeu.html)
