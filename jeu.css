@@ -119,6 +119,7 @@ header {
     background-color: var(--vert);
     margin-left: 10px;
     box-shadow: 2px 2px 4px #000;
+    border-radius: 10px;
 }
 
 .game_chara11 {
@@ -187,6 +188,7 @@ header {
     background-color: var(--vert);
     margin-right: 10px;
     box-shadow: 2px 2px 4px #000;
+    border-radius: 10px;
 }
 
 .game_chara31 {

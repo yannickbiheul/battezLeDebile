@@ -14,7 +14,6 @@ C'est un jeu que je développe tout seul, sans cours ni tuto, juste pour valider
 * JavaScript
     * Variables
     * Instructions conditionnelles
-    * Boucles
     * Fonctions
     * Intéractions avec le DOM
     * Génération de nombres aléatoires
