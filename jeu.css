@@ -301,7 +301,7 @@ header {
 }
 
 #twice {
-    opacity: 0;
+    display: none;
     transition-duration: 1.5s;
     height: 33%;
 }

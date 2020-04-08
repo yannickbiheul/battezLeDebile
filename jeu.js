@@ -67,7 +67,7 @@ buttonDebile.addEventListener("click", function() {
     infoNameDebile.innerHTML = nameDebile;
     infoPvDebile.innerHTML = pvDebile + " PV.";
     twiceText.style.opacity = "1";
-    twice.style.opacity = "1";
+    twice.style.display = "flex";
 })
 
 
