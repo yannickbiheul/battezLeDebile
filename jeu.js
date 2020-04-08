@@ -36,6 +36,7 @@ let resultLancerDebile = document.querySelector(".resultLancerDebile");
 let randomPlayer = 0;
 let randomDebile = 0;
 let resultCombat = document.querySelector(".resultCombat");
+let bandeau = document.querySelector(".bandeau");
 
 
 /* RÉCUPÉRER LE NOM DU JOUEUR */
@@ -89,6 +90,9 @@ twice.addEventListener("click", function() {
         resultCombat.style.display = "none";
         titreLancerDebile.style.display = "none";
         resultLancerDebile.style.display = "none";
+        bandeau.innerHTML = "PERDU !";
+        bandeau.style.fontSize = "2.2em";
+        bandeau.style.left = "calc(50% - 120px)";
     } else if (pvDebile <= 0) {
         imgDebile.style.opacity = "0";
         nameDebile.innerHTML = "Perdu !";
@@ -104,6 +108,9 @@ twice.addEventListener("click", function() {
         resultCombat.style.display = "none";
         titreLancerDebile.style.display = "none";
         resultLancerDebile.style.display = "none";
+        bandeau.innerHTML = "GAGNÉ !";
+        bandeau.style.fontSize = "2.2em";
+        bandeau.style.left = "calc(50% - 120px)";
     } else {
         randomPlayer = Math.floor(Math.random() * 10+ 1);
         randomDebile = Math.floor(Math.random() * 10 + 1);

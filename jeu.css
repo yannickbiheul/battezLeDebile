@@ -342,3 +342,22 @@ header {
     transition-duration: 1.5s;
     font-weight: bold;
 }
+
+.bandeau {
+    position: absolute;
+    top: 150px;
+    left: -250px;
+    width: 220px;
+    height: 80px;
+    background-color: #f5f6fa;
+    border: 2px solid #e84118;
+    letter-spacing: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 4px 4px 4px #000;
+    border-radius: 5px;
+    transition-duration: 1.5s;
+    transform: rotate(-5deg);
+    font-family: 'Permanent Marker', cursive;
+}
