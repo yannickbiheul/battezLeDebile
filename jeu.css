@@ -105,7 +105,7 @@ header {
     align-items: center;
     height: 55%;
     width: 100%;
-    background-color: #fff;
+    background-color: var(--bleu-roi);
 }
 
 .game_chara1 {
