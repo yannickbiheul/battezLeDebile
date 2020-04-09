@@ -37,6 +37,7 @@ let randomPlayer = 0;
 let randomDebile = 0;
 let resultCombat = document.querySelector(".resultCombat");
 let bandeau = document.querySelector(".bandeau");
+let containerFin = document.querySelector(".game_play2");
 
 
 /* RÉCUPÉRER LE NOM DU JOUEUR */
@@ -93,6 +94,18 @@ twice.addEventListener("click", function() {
         bandeau.innerHTML = "PERDU !";
         bandeau.style.fontSize = "2.2em";
         bandeau.style.left = "calc(50% - 120px)";
+        let finJeu = document.createElement("a");
+        finJeu.innerHTML = "Terminer";
+        finJeu.style.backgroundColor = "var(--rouge)";
+        finJeu.style.padding = "10px";
+        finJeu.style.color = "#fff";
+        finJeu.style.borderRadius = "5px";
+        finJeu.style.boxShadow = "4px 4px 4px #000";
+        finJeu.style.cursor = "pointer";
+        containerFin.appendChild(finJeu);
+        finJeu.addEventListener("click", function() {
+            window.location.reload();
+        });
     } else if (pvDebile <= 0) {
         imgDebile.style.opacity = "0";
         nameDebile.innerHTML = "Perdu !";
@@ -111,6 +124,18 @@ twice.addEventListener("click", function() {
         bandeau.innerHTML = "GAGNÉ !";
         bandeau.style.fontSize = "2.2em";
         bandeau.style.left = "calc(50% - 120px)";
+        let finJeu = document.createElement("a");
+        finJeu.innerHTML = "Terminer";
+        finJeu.style.backgroundColor = "var(--rouge)";
+        finJeu.style.padding = "10px";
+        finJeu.style.color = "#fff";
+        finJeu.style.borderRadius = "5px";
+        finJeu.style.boxShadow = "4px 4px 4px #000";
+        finJeu.style.cursor = "pointer";
+        containerFin.appendChild(finJeu);
+        finJeu.addEventListener("click", function() {
+            window.location.reload();
+        });
     } else {
         randomPlayer = Math.floor(Math.random() * 10+ 1);
         randomDebile = Math.floor(Math.random() * 10 + 1);
