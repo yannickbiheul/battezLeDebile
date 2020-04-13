@@ -52,19 +52,21 @@ Si votre score est plus élevé, vous enlevez la différence aux points de vie d
 
 # Mises à jour
 
-* **9 Avril 2020**
-    * Ajout du bouton "Terminer" pour recharger la page.
+* **7 Avril 2020** 
+    * Ajout d'une fonction qui permet de ré-initialiser le jeu quand les points de vie sont à zéro.
+    * Modif du CSS pour changer les couleurs.
 
 * **8 Avril 2020**
     * Correction du bug qui faisait qu'on pouvait cliquer sur l'emplacement du dé avant de commencer le jeu.
     * Ajout d'une pancarte "Gagné" et "Perdu".
 
-* **7 Avril 2020** 
-    * Ajout d'une fonction qui permet de ré-initialiser le jeu quand les points de vie sont à zéro.
-    * Modif du CSS pour changer les couleurs.
+* **9 Avril 2020**
+    * Ajout du bouton "Terminer" pour recharger la page.
+
+* **13 Avril 2020**
+    * Ajout du Footer.
 
 
 # Jouer au jeu
 Le jeu est ici : [Battez Le Débile](http://yannickbiheul.fr/jeu.html)
 
-Mais attention, il n'est pas terminé !
